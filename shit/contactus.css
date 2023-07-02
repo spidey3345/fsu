@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}.navscr{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.container1{
+    width:50vw;
+}
+
+.slogans h1 {
+    position: relative;
+    font-size: 65px;
+    left: 32vw;
+    margin-top:1vh;
+}
+
+.container {
+margin-top: -34vh;    width: 665px;
+    height: 265px;
+    padding: 40px;
+    background: rgb(143, 152, 235);
+    position: relative;
+    left: 35%;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.container .input {
+    position: relative;
+    width: 265px;
+    margin-top: 20px;
+}
+
+.container .input input {
+    width: 265px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #801c1c;
+    outline: none;
+    resize: none;
+
+}
+
+.container span {
+    position: absolute;
+    left: 10px;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+}
+
+.container input:focus~span,
+.container input:valid~span {
+    color: #000;
+    font-size: 20px;
+    transform: translateY(-30px);
+
+}
+
+.container .input1 input {
+    width: 100px;
+    background: #a8553a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    left: 75px;
+}
+
+.mini img {
+    position: relative;
+    left: 50vw;
+    top: 10vh;
+    z-index: 1;
+    height: 35px;
+    width: 35px;
+    padding: 10px 0 0 0;
+
+}
+
+.mini a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.mini span:hover {
+    color: yellow;
+}
+.mini a:hover{
+    color: yellow;
+}
+
+.mini span {
+    position: relative;
+    left: 50vw;
+    top: 8vh;
+    z-index: 1;
+    padding: 0 0 0 10px;
+
+}

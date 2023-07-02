@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+.background-container {
+  background: url(/background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.navbar{
+  position: fixed;
+  margin-top: 0px;
+}
+.nav{
+  position: relative;
+  height: 20vh;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  top:-20vh;
+  z-index: 99999;
+  background: linear-gradient(to right, #141a47, #5d97ee);
+}
+
+.navlinks ul{
+  list-style: none;
+  display: flex;
+  float: right;
+  margin-top: 9vh;
+}
+.navlinks ul li{
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 25px;
+  
+}
+.navlinks li a:hover{
+  color: orangered;
+}
+.navlinks li a:after{
+  content:"";
+  position: absolute;
+  height: 3px;
+  width: 0px;
+  border-bottom: 3px  solid;
+  transition: 0.5s;
+}
+.navlinks li a:after:hover{
+  width:100%;
+}
+.alticons a{
+  position: absolute;
+  bottom: 20px;
+right: 20px;
+}
+.icons a{
+position: absolute;
+top: 21vh;
+right: 9vw;
+}
+.textnav{
+  margin-top: 4vh;
+  margin-left: -5vw;
+}
+.textnav p{
+  color: white;
+  margin-top: 4px;
+}
+.fonties h2{
+  position: relative;
+  top:28vh;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 10vh;
+}
